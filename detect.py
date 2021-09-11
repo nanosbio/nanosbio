@@ -188,7 +188,7 @@ def detect(weights, source, img_size, conf_thres, iou_thres, max_det, device, vi
 
 
 def evaluarimagen(image):
-    weights = "weights/best.pt"
+    weights = "best.pt"
     source = image
     img_size = 640
     conf_thres = 0.42
